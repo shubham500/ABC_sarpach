@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/baground"
+    android:padding="15dp"
+    android:layout_height="match_parent"
+    tools:context=".Sarpanch">
+
+    <TextView
+        android:id="@+id/sarpanch_heding."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/TextColor"
+        android:textSize="25sp"
+        android:padding="10dp"
+        android:text="Sarpanch" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/sarpanch_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/TextColor"
+                android:background="@drawable/corner1"
+                android:textSize="25sp"
+                android:padding="10dp"
+                android:text="Swapnil Galdhar" />
+
+
+            <ImageView
+                android:id="@+id/sarpanch_img"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/sarpanch" />
+
+
+            <TextView
+                android:id="@+id/sarpanch_education"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/TextColor"
+                android:textSize="25sp"
+                android:padding="10dp"
+                android:text="Education:BE (comp)" />
+
+            <TextView
+                android:id="@+id/sarpanch_awards"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/TextColor"
+                android:textSize="25sp"
+                android:padding="10dp"
+                android:text="national awards" />
+
+            <TextView
+            android:id="@+id/sarpanch_Karya"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/TextColor"
+            android:textSize="25sp"
+            android:padding="10dp"
+            android:text="" />
+
+            <TextView
+                android:id="@+id/sarpanch_vichar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/TextColor"
+                android:textSize="25sp"
+                android:padding="10dp"
+                android:text="" />
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>

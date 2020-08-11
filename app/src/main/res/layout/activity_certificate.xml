@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:fontFamily="monospace"
+    android:background="@color/orange1"
+    tools:context=".Cetificate">
+
+    <TextView
+        android:id="@+id/document_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Document Section"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/domicile"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/rectangleshape"
+        android:textColor="@color/TextColor"
+        android:text="Rahiwasi Dakhala" />
+
+    <Button
+        android:id="@+id/birth_certificate"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/rectangleshape"
+        android:textColor="@color/TextColor"
+        android:text="Janam Dakhala" />
+
+    <Button
+        android:id="@+id/death_certificate"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/rectangleshape"
+        android:textColor="@color/TextColor"
+        android:text="Mrutu Dakhala" />
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">ABC</string>
+    <string name="cv_sarpanch">Sarpach</string>
+
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="title_activity_villegelogin">Sign in</string>
+
+
+    <string name="sarpanch">सरपंच</string>
+    <string name="village">गाव</string>
+    <string name="samiti">ग्रा.पं.समिती </string>
+    <string name="plans">योजना</string>
+    <string name="documents">कागदपत्रे</string>
+    <string name="epayment">ई पेमेंट</string>
+    <string name="education">शिक्षण</string>
+    <string name="complaint">तक्रार नोंदणी</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="password">Password </string>
+    <string name="firstname">First name</string>
+    <string name="lastname">Last name</string>
+    <string name="mobile">Mobile no.</string>
+    <string name="aadhar">Aadhar no.</string>
+    <string name="email">Email </string>
+    <string name="username">Username</string>
+    <string name="gallery">गॅलरी</string>
+</resources>
